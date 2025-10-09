@@ -13,6 +13,9 @@ public class ArrayListExample {
 
         System.out.println(students);
 
+        for (String student: students) {
+            System.out.println(student);
+        }
 
     }
 }
