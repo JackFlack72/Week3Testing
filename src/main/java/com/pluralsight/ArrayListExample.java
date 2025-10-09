@@ -10,12 +10,22 @@ public class ArrayListExample {
         students.add("Nam Kiet");
         students.add("Fatinur");
         students.add("Mario");
+//Output: [Lucas, Catrina, Nam Kiet, Fatinur, Mario]
 
         System.out.println(students);
 
         for (String student: students) {
             System.out.println(student);
         }
+/* Output:
+
+Lucas
+Catrina
+Nam Kiet
+Fatinur
+Mario
+
+ */
 
     }
 }
